@@ -20,7 +20,7 @@ expressApp.use(express.static('static'))
 expressApp.use(express.json());
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf(6651997233:AAF1t3rpF2L1uDrzn5pFlCwlUws42iN4RX8);
 expressApp.get("/", (req, res) => {
 res.sendFile(path.join(__dirname + '/index.html'));
 });
